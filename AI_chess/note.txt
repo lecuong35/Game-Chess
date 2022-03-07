@@ -1,0 +1,28 @@
+git clone <link repos trên git> //tải một bản sao của project theo đường link
+
+HOẶC
+
+git init //khởi tạo repos trên local ại forder muốn lưu các file source
+
+<<<<<<< HEAD
+git remote add origin https://github.com/299792458k/299792458k-AI_Chess.git   //liên kết link
+
+git pull https://github.com/299792458k/299792458k-AI_Chess.git main    //tải source về
+
+git add .            // sau khi tạo file note.txt thì cần add vào repos mà itnit từ trước
+
+git commit -m "son"   //xác nhận thay đổi
+=======
+//up lên github repos
+git add .            // sau khi tạo, sửa, xóa file thì cần add vào git
+
+git commit -m "son"  // confirm sửa đổi
+>>>>>>> 97cc8072d05818e19f11335fed2a7483483b33e1
+
+git branch -M main  // chọn nhánh    
+
+<<<<<<< HEAD
+git push -u origin main
+=======
+git push -u origin main  // push
+>>>>>>> 97cc8072d05818e19f11335fed2a7483483b33e1
